@@ -1,0 +1,45 @@
+.agent-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.agent-row {
+  width: 23%;
+  margin-bottom: 20px;
+}
+
+.agent-box {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-family: "Tungsten-Bold.tff", sans-serif;
+  width: 100%;
+
+.agent-box h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.agent-box img {
+  max-width: 100px;
+  height: auto;
+}
+
+@font-face {
+  font-family: 'Tungsten-Bold.tff';
+  src: url(fonts/Tungsten-Bold.tff);
+}
+
+@font-face {
+  font-family: 'FontFont_FF.Mark.Pro.Bold';
+  src: url(fonts/FontFont_FF.Mark.Pro.Bold.tff);
+}
+
+body {
+  background-color: gray;
+}
